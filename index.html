@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bootstrap&#1058&#1077&#1084&#1072 | Генератор теней для шрифтов</title>
+<link href="https://www.google.com/+BootstraptemaRus" rel="publisher" />
+<link rel="stylesheet" href="http://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css" />
+<link href="http://bootstraptema.ru/snippets/generator/2015/jquery-ui-git.css" rel="stylesheet" />
+<link href="http://bootstraptema.ru/snippets/generator/2015/jquery.colorpicker.css" rel="stylesheet" />
+<script src="http://bootstraptema.ru/assets/js/jquery-1.10.2.js"></script>
+
+<style>
+.col-md-3 {text-align:center;margin-bottom:5px}
+.col-md-3 i {width:100%;float:left;font-size:44px}
+.text-shadow-code, .option-text-shadow {
+    position:relative;
+    padding:45px 15px 15px;
+    margin:0 -15px 15px;
+    background-color:#fafafa;
+    box-shadow:inset 0 3px 6px rgba(0,0,0,.05);
+    border-color:#e5e5e5 #eee #eee;
+    border-style:solid;
+    border-width:1px 0;
+}
+.text-shadow-code:after{
+    content:"Готовый код тени";
+    position:absolute;
+    top:15px;
+    left:15px;
+    font-size:12px;
+    font-weight:700;
+    color:#bbb;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.option-text-shadow:after{
+    content:"Настройка тени";
+    position:absolute;
+    top:15px;
+    left:15px;
+    font-size:12px;
+    font-weight:700;
+    color:#bbb;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.text-shadow-code+pre, .option-text-shadow+fieldset {
+    margin:-15px -15px 15px;
+    border-radius:0;
+    border-width:0 0 1px;
+}
+
+@media (min-width:768px){
+.text-shadow-code, .option-text-shadow{
+    margin-left:0;
+    margin-right:0;
+    background-color:#fff;
+    border-width:1px;
+    border-color:#ddd;
+    border-radius:4px 4px 0 0;
+    box-shadow:none;
+}
+
+}
+</style>
+
+<style>
+i{font-family: 'Impact';}
+</style>
+
+</head>
+<body>
+<div class="container">
+<div class="row">
+
+
+<div class="clearfix"></div>
+<fieldset>
+<div class="col-md-9 three-d fontsy">
+<h1 class="text-center">Шрифт Hack BoldItalic</h1>
+<div class="clearfix"></div>
+<h2 class="text-center">Русский алфавит</h2>
+<div class="col-md-3">
+<i>а</i>
+</div>
+<div class="col-md-3">
+<i>А</i>
+</div>
+<div class="col-md-3">
+<i>б</i>
+</div>
+<div class="col-md-3">
+<i>Б</i>
+</div>
+<div class="col-md-3">
+<i>в</i>
+</div>
+<div class="col-md-3">
+<i>В</i>
+</div>
+<div class="col-md-3">
+<i>г</i>
+</div>
+<div class="col-md-3">
+<i>Г</i>
+</div>
+<div class="col-md-3">
+<i>д</i>
+</div>
+<div class="col-md-3">
+<i>Д</i>
+</div>
+<div class="col-md-3">
+<i>е</i>
+</div>
+<div class="col-md-3">
+<i>Е</i>
+</div>
+<div class="col-md-3">
+<i>ё</i>
+</div>
+<div class="col-md-3">
+<i>Ё</i>
+</div>
+<div class="col-md-3">
+<i>ж</i>
+</div>
+<div class="col-md-3">
+<i>Ж</i>
+</div>
+<div class="col-md-3">
+<i>з</i>
+</div>
+<div class="col-md-3">
+<i>З</i>
+</div>
+<div class="col-md-3">
+<i>и</i>
+</div>
+<div class="col-md-3">
+<i>И</i>
+</div>
+<div class="col-md-3">
+<i>й</i>
+</div>
+<div class="col-md-3">
+<i>Й</i>
+</div>
+<div class="col-md-3">
+<i>к</i>
+</div>
+<div class="col-md-3">
+<i>К</i>
+</div>
+<div class="col-md-3">
+<i>л</i>
+</div>
+<div class="col-md-3">
+<i>Л</i>
+</div>
+<div class="col-md-3">
+<i>м</i>
+</div>
+<div class="col-md-3">
+<i>М</i>
+</div>
+<div class="col-md-3">
+<i>н</i>
+</div>
+<div class="col-md-3">
+<i>Н</i>
+</div>
+<div class="col-md-3">
+<i>о</i>
+</div>
+<div class="col-md-3">
+<i>О</i>
+</div>
+<div class="col-md-3">
+<i>п</i>
+</div>
+<div class="col-md-3">
+<i>П</i>
+</div>
+<div class="col-md-3">
+<i>р</i>
+</div>
+<div class="col-md-3">
+<i>Р</i>
+</div>
+<div class="col-md-3">
+<i>с</i>
+</div>
+<div class="col-md-3">
+<i>С</i>
+</div>
+<div class="col-md-3">
+<i>т</i>
+</div>
+<div class="col-md-3">
+<i>Т</i>
+</div>
+<div class="col-md-3">
+<i>у</i>
+</div>
+<div class="col-md-3">
+<i>У</i>
+</div>
+<div class="col-md-3">
+<i>ф</i>
+</div>
+<div class="col-md-3">
+<i>Ф</i>
+</div>
+<div class="col-md-3">
+<i>х</i>
+</div>
+<div class="col-md-3">
+<i>Х</i>
+</div>
+<div class="col-md-3">
+<i>ц</i>
+</div>
+<div class="col-md-3">
+<i>Ц</i>
+</div>
+<div class="col-md-3">
+<i>ч</i>
+</div>
+<div class="col-md-3">
+<i>Ч</i>
+</div>
+<div class="col-md-3">
+<i>ш</i>
+</div>
+<div class="col-md-3">
+<i>Ш</i>
+</div>
+<div class="col-md-3">
+<i>щ</i>
+</div>
+<div class="col-md-3">
+<i>Щ</i>
+</div>
+<div class="col-md-3">
+<i>ь</i>
+</div>
+<div class="col-md-3">
+<i>ъ</i>
+</div>
+<div class="col-md-3">
+<i>э</i>
+</div>
+<div class="col-md-3">
+<i>Э</i>
+</div>
+<div class="col-md-3">
+<i>ю</i>
+</div>
+<div class="col-md-3">
+<i>Ю</i>
+</div>
+<div class="col-md-3">
+<i>я</i>
+</div>
+<div class="col-md-3">
+<i>Я</i>
+</div>
+<div class="clearfix"></div>
+<h2 class="text-center">Цифры</h2>
+<div class="col-md-3">
+<i>0</i>
+</div>
+<div class="col-md-3">
+<i>1</i>
+</div>
+<div class="col-md-3">
+<i>2</i>
+</div>
+<div class="col-md-3">
+<i>3</i>
+</div>
+<div class="col-md-3">
+<i>4</i>
+</div>
+<div class="col-md-3">
+<i>5</i>
+</div>
+<div class="col-md-3">
+<i>6</i>
+</div>
+<div class="col-md-3">
+<i>7</i>
+</div>
+<div class="col-md-3">
+<i>8</i>
+</div>
+<div class="col-md-3">
+<i>9</i>
+</div>
+<div class="clearfix"></div>
+<h2 class="text-center">Английский алфавит</h2>
+<div class="col-md-3">
+<i>a</i>
+</div>
+<div class="col-md-3">
+<i>A</i>
+</div>
+<div class="col-md-3">
+<i>b</i>
+</div>
+<div class="col-md-3">
+<i>B</i>
+</div>
+<div class="col-md-3">
+<i>c</i>
+</div>
+<div class="col-md-3">
+<i>C</i>
+</div>
+<div class="col-md-3">
+<i>d</i>
+</div>
+<div class="col-md-3">
+<i>D</i>
+</div>
+<div class="col-md-3">
+<i>e</i>
+</div>
+<div class="col-md-3">
+<i>E</i>
+</div>
+<div class="col-md-3">
+<i>f</i>
+</div>
+<div class="col-md-3">
+<i>F</i>
+</div>
+<div class="col-md-3">
+<i>g</i>
+</div>
+<div class="col-md-3">
+<i>G</i>
+</div>
+<div class="col-md-3">
+<i>h</i>
+</div>
+<div class="col-md-3">
+<i>H</i>
+</div>
+<div class="col-md-3">
+<i>i</i>
+</div>
+<div class="col-md-3">
+<i>I</i>
+</div>
+<div class="col-md-3">
+<i>j</i>
+</div>
+<div class="col-md-3">
+<i>J</i>
+</div>
+<div class="col-md-3">
+<i>k</i>
+</div>
+<div class="col-md-3">
+<i>K</i>
+</div>
+<div class="col-md-3">
+<i>l</i>
+</div>
+<div class="col-md-3">
+<i>L</i>
+</div>
+<div class="col-md-3">
+<i>m</i>
+</div>
+<div class="col-md-3">
+<i>M</i>
+</div>
+<div class="col-md-3">
+<i>n</i>
+</div>
+<div class="col-md-3">
+<i>N</i>
+</div>
+<div class="col-md-3">
+<i>o</i>
+</div>
+<div class="col-md-3">
+<i>O</i>
+</div>
+<div class="col-md-3">
+<i>p</i>
+</div>
+<div class="col-md-3">
+<i>P</i>
+</div>
+<div class="col-md-3">
+<i>q</i>
+</div>
+<div class="col-md-3">
+<i>Q</i>
+</div>
+<div class="col-md-3">
+<i>r</i>
+</div>
+<div class="col-md-3">
+<i>R</i>
+</div>
+<div class="col-md-3">
+<i>s</i>
+</div>
+<div class="col-md-3">
+<i>S</i>
+</div>
+<div class="col-md-3">
+<i>t</i>
+</div>
+<div class="col-md-3">
+<i>T</i>
+</div>
+<div class="col-md-3">
+<i>u</i>
+</div>
+<div class="col-md-3">
+<i>U</i>
+</div>
+<div class="col-md-3">
+<i>v</i>
+</div>
+<div class="col-md-3">
+<i>V</i>
+</div>
+<div class="col-md-3">
+<i>w</i>
+</div>
+<div class="col-md-3">
+<i>W</i>
+</div>
+<div class="col-md-3">
+<i>x</i>
+</div>
+<div class="col-md-3">
+<i>X</i>
+</div>
+<div class="col-md-3">
+<i>y</i>
+</div>
+<div class="col-md-3">
+<i>Y</i>
+</div>
+<div class="col-md-3">
+<i>z</i>
+</div>
+<div class="col-md-3">
+<i>Z</i>
+</div>
+<div class="clearfix"></div>
+<h2 class="text-center">Дополнительные символы</h2>
+<div class="col-md-3">
+<i>{}</i>
+</div>
+<div class="col-md-3">
+<i>[]</i>
+</div>
+<div class="col-md-3">
+<i>()</i>
+</div>
+<div class="col-md-3">
+<i>></i>
+</div>
+<div class="col-md-3">
+<i>@</i>
+</div>
+<div class="col-md-3">
+<i><</i>
+</div>
+<div class="col-md-3">
+<i>$</i>
+</div>
+<div class="col-md-3">
+<i>*</i>
+</div>
+<div class="col-md-3">
+<i>-</i>
+</div>
+<div class="col-md-3">
+<i>+</i>
+</div>
+<div class="col-md-3">
+<i>=</i>
+</div>
+<div class="col-md-3">
+<i>/</i>
+</div>
+<div class="col-md-3">
+<i>\</i>
+</div>
+<div class="col-md-3">
+<i>%</i>
+</div>
+<div class="col-md-3">
+<i>^</i>
+</div>
+<div class="col-md-3">
+<i>&</i>
+</div>
+<div class="col-md-3">
+<i>|</i>
+</div>
+<div class="col-md-3">
+<i>~</i>
+</div>
+<div class="col-md-3">
+<i>?</i>
+</div>
+<div class="col-md-3">
+<i>'</i>
+</div>
+<div class="col-md-3">
+<i>"</i>
+</div>
+<div class="col-md-3">
+<i>!</i>
+</div>
+<div class="col-md-3">
+<i>.</i>
+</div>
+<div class="col-md-3">
+<i>,</i>
+</div>
+<div class="col-md-3">
+<i>:</i>
+</div>
+<div class="col-md-3">
+<i>;</i>
+</div>
+<div class="col-md-3">
+<i>_</i>
+</div>
+<div class="clearfix"></div>
+
+</div>
+<div class="col-md-3 option-text-shadow">
+<h3 class="text-left">Тени для шрифта</h3>
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><input type="radio" name="mode" value="1"></span>
+<input class="form-control" type="text" value="Тип тени Радуга" placeholder="Тип тени Радуга" disabled/>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><input type="radio" name="mode" value="2"></span>
+<input class="form-control" type="text" value="Тип тени Слой" placeholder="Тип тени Слой" disabled/>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><input type="radio" name="mode" value="3"></span>
+<input class="form-control" type="text" value="Сброс всех теней" placeholder="Сброс всех теней" disabled/>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<span class="input-group-addon">font-size:<span id="num--size">44</span>px;</span>
+<div id="size" class="form-control"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<span class="input-group-addon">Начальный цвет тени</span>
+<input type="text" class="form-control shadow-end-color cp-basic" value="3569ba" placeholder="3569ba">
+<div class="swatch shadow-start-color-swatch"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<span class="input-group-addon"> Конечный цвет тени</span>
+<input type="text" class="form-control shadow-end-color cp-basic" value="134888" placeholder="134888">
+<div class="swatch shadow-end-color-swatch"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<span class="input-group-addon">Цвет текста</span>
+<input type="text" class="form-control text-color cp-basic" value="c4cad4" placeholder="c4cad4">
+<div class="swatch text-color-swatch"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<span class="input-group-addon">Цвет фона</span>
+<input type="text" class="form-control background-color cp-basic" value="ffffff" placeholder="ffffff">
+<div class="swatch background-color-swatch"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<label class="input-group-addon">Глубина тени</label>
+<div id="depth" class="form-control"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<label class="input-group-addon">Смещение X</label>
+<div id="xDirection" class="form-control"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<label class="input-group-addon">Смещение Y</label>
+<div id="yDirection" class="form-control"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group input-group-sm col-sm-12">
+<label class="input-group-addon">Размытость</label>
+<div id="blur" class="form-control"></div>
+</div>
+</div>
+<div class="col-sm-12 text-shadow-code">
+<pre> 
+<code class="shadow-css language-css"></code>
+</pre>
+</div>
+</div>
+
+<script type="text/javascript" src="http://bootstraptema.ru/snippets/generator/2015/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://bootstraptema.ru/snippets/generator/2015/jquery.colorpicker.js"></script>
+<script type="text/javascript" src="http://bootstraptema.ru/snippets/generator/2015/jquery.xcolor.min.js"></script>
+<script type="text/javascript" src="http://bootstraptema.ru/snippets/generator/2015/prism.js"></script>
+<script type="text/javascript" src="http://bootstraptema.ru/snippets/generator/2015/generator-shadow-icons.js"></script>
+
+
+
+<script type="text/javascript">
+var shadow = '';
+var depth = 34;
+var blur = 0;
+var xDirection = 1;
+var yDirection = 1;
+var textColor = '#f8fbfb';
+var startColor = '#3fa53e';
+var endColor = '#ea1ee4';
+var mode = 1;
+
+function shadeColor1(color, percent) {
+var num = parseInt(color.slice(1),16), amt = Math.round(2.55 * percent), R = (num >> 16) + amt, G = (num >> 8 & 0x00FF) + amt, B = (num & 0x0000FF) + amt;
+return "#" + (0x1000000 + (R<255?R<1?0:R:255)*0x10000 + (G<255?G<1?0:G:255)*0x100 + (B<255?B<1?0:B:255)).toString(16).slice(1);
+} 
+function textShadow1(depth, startColor, endColor, xDirection, yDirection, blur) {
+for(i = 1; i < depth + 1; i++){
+var _xshadow = xDirection * i * .005;
+var _yshadow = yDirection * i * .005;
+var xFinal = _xshadow.toFixed(3);
+var yFinal = _yshadow.toFixed(3);
+
+if((depth + 1 - i) > 1) {
+shadow = shadow + xFinal + 'em ' + yFinal + 'em ' + (blur * .001) + 'em ' + $.xcolor.gradientlevel(startColor, endColor, i-1, depth) + ', ';
+} else {
+shadow = shadow + xFinal + 'em ' + yFinal + 'em ' + (blur * .001) + 'em ' + $.xcolor.gradientlevel(startColor, endColor, i-1, depth);
+}
+}
+return shadow;
+ }
+
+function textShadow2(depth, startColor, endColor, xDirection, yDirection, blur) {
+for(i = 1; i < depth + 1; i++){
+var _xshadow = xDirection * i * .001;
+var _yshadow = yDirection * i * .001;
+var xFinal = _xshadow.toFixed(3);
+var yFinal = _yshadow.toFixed(3);
+
+if((depth + 1 - i) > 1) {
+if (i % 2 == 0){
+shadow = shadow + xFinal + 'em ' + (yFinal - .001).toFixed(3) + 'em ' + (blur * .001) + 'em ' + startColor + ', ';
+}
+
+if (i % 2 == 1){
+shadow = shadow + (xFinal - .001).toFixed(3) + 'em ' + yFinal + 'em ' + (blur * .001) + 'em ' + endColor + ', ';
+ }
+ 
+} else {
+shadow = shadow + xFinal + 'em ' + (yFinal - .001).toFixed(3) + 'em ' + (blur * .001) + 'em ' + startColor;
+}
+}
+return shadow;
+ }
+
+function renderShadow() {
+$('.three-d').css({
+'textShadow' : shadow
+});
+
+$('.shadow-css').text('text-shadow: ' + shadow + ';');
+}
+
+function initializeShadow(mode) {
+if (mode == 1) {
+textShadow1(depth, startColor, endColor, xDirection, yDirection, blur);
+
+}
+
+if (mode == 2) {
+textShadow2(depth, startColor, endColor, xDirection, yDirection, blur);
+} 
+ 
+renderShadow();
+Prism.highlightAll();
+}
+
+$('input[name=mode]').change(function() {
+var newMode = $(this).val();
+mode = newMode;
+shadow = '';
+initializeShadow(mode);
+ });
+
+$('.cp-basic').colorpicker();
+
+$('#depth').slider({
+min: 0,
+max: 89,
+value: 21,
+slide: function(event, ui){
+shadow = '';
+depth = ui.value;
+initializeShadow(mode);
+}
+});
+
+$('#blur').slider({
+min: 0,
+max: 200,
+slide: function(event, ui){
+shadow = '';
+blur = ui.value;
+initializeShadow(mode);
+}
+});
+$('#colorTransitionIncrementor').slider({
+min: -21,
+max: 21,
+step: .5,
+slide: function(event, ui){
+shadow = '';
+colorTransitionIncrementor = ui.value;
+initializeShadow(mode);
+}
+});
+
+$('#xDirection').slider({
+min: -13,
+max: 13,
+slide: function(event, ui){
+shadow = '';
+xDirection = ui.value;
+initializeShadow(mode);
+}
+});
+
+$('#yDirection').slider({
+min: -8,
+max: 8,
+slide: function(event, ui){
+shadow = '';
+yDirection = ui.value;
+initializeShadow(mode);
+}
+ });
+
+$('.shadow-start-color').blur(function(){
+console.log('fired');
+shadow = '';
+startColor = '#' + $(this).val();
+initializeShadow(mode);
+$('.shadow-start-color-swatch').css('background', '#' + $(this).val());
+});
+
+$('.shadow-end-color').blur(function(){
+shadow = '';
+endColor = '#' + $(this).val();
+initializeShadow(mode);
+$('.shadow-end-color-swatch').css('background', '#' + $(this).val());
+});
+
+$('.text-color').blur(function(){
+textColor = '#' + $(this).val();
+$('.three-d').css('color', textColor);
+$('.text-color-swatch').css('background', '#' + $(this).val());
+});
+
+$('.background-color').blur(function(){
+$('.three-d').css('background', '#' + $(this).val());
+$('.background-color-swatch').css('background', '#' + $(this).val());
+});
+
+initializeShadow(mode);
+
+$(document).ready(function(){
+$(".text").keyup(function () {
+var value = $(this).val();
+$(".fontsy").text(value);
+}).keyup();
+$("input[value='3']").change(function(){
+$('.fontsy').textshadow('none');
+});
+});
+</script>
+</fieldset>
+
+<div class="clearfix"></div>
+
+</div>
+</div>
+</body>
+</html>
